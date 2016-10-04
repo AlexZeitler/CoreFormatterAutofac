@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2EDCA836-7B2D-4444-AA75-CAB06D7B203E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3B4F303F-C699-4D9A-BD57-CF48BDABBBA8}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "CoreFormatterAutofac", "src\CoreFormatterAutofac\CoreFormatterAutofac.xproj", "{7A2D7A73-A3F6-41C7-A065-C5DD1A647DC2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7A2D7A73-A3F6-41C7-A065-C5DD1A647DC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A2D7A73-A3F6-41C7-A065-C5DD1A647DC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A2D7A73-A3F6-41C7-A065-C5DD1A647DC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A2D7A73-A3F6-41C7-A065-C5DD1A647DC2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7A2D7A73-A3F6-41C7-A065-C5DD1A647DC2} = {2EDCA836-7B2D-4444-AA75-CAB06D7B203E}
+	EndGlobalSection
+EndGlobal
